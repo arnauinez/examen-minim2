@@ -17,11 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
-                Intent intent = new Intent(getApplicationContext(), ListActivity.class);
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 1000);
 
     }
 }
